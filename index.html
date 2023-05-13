@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+        crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Evento</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-container">
+                <ul>
+                    <li>
+                        <p><strong>Compartir</strong> </p>
+                    </li>
+                    <li>
+                        <a class="icono" href="https://facebook.com/" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1P1rqBIUeFGIcA7ykBUtsYXsAtyz2mNV0" alt="logo facebook" /></a>
+                    </li>
+                    <li>
+                        <a class="icono" href="https://instagram.com/" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1q-q9sK4tMy69tJYHH-EJdsdR08yNYemG" alt="logo instagram" /></a>
+                    </li>
+                    <li>
+                        <a class="icono" href="https://linkedin.com/" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1N7siIF_T_MGUuy2-SCejZNc6EC0Q9mGp" alt="logo linkedin" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-registro">        
+                <button type="button" class="btn btn-dark" onclick="alternarModo()">Modo</button>
+                <a href="register.html"><button type="button" class="btn btn-dark" href="register.html">Registrarse</button></a>
+            </div>   
+        </div>
+        <div id="idTitulo" class = "titulo">           
+            <div class="titulo-container">
+                <h1><i>THE METAVERSE:</i></h1>
+            </div>
+            <div class="titulo-container">
+                <h2>UN VISTAZO AL FUTURO DEL TRABAJO</h2>
+                
+            </div>
+            <div class="titulo-container">
+                <h3>Unite a un panel de debate único en su clase con los fundadores de Virbela, Second Life, High Fidelity y 
+                    otros líderes intelectuales en XR.</h3> 
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="evento">
+            <div class="evento-info-titulo">
+                <h3><strong>INFO EVENTO</strong></h3>
+            </div>
+            <div class="evento-info">
+                <div class="evento-container">
+                    <h3>15 de Mayo, 6PM</h3>
+                    <div><h4>Fecha/Hora</h4></div>                    
+                </div>
+                <div class="evento-container">
+                    <h3>UNAHUR</h3>
+                    <div><h4>Lugar</h4></div> 
+                </div>
+                <div class="evento-container">
+                    <h3>Gratis</h3>
+                    <div><h4>Entrada</h4></div> 
+                </div>
+            </div>
+            <!-- <div class="evento-tema-titulo">
+                
+            </div> -->
+            <div class="evento-tema">
+                <div class="tema-main">
+                    <h3><strong>TEMA</strong></h3>
+                    <p>
+                        En muchas maneras el Metaverse ya está acá. Mundos Virtuales como Roblox, Minecraft y Fortnite tienen billones 
+                        de usuarios y economías que rivalizan con pequeños países. ¿Qué rol tendrán los mundos virtuales y el Metaverse 
+                        en el futuro del trabajo? Unite a los más destacados líderes intelectuales de XR en un debate en vivo mientras 
+                        comparten su visión y responden esta pregunta.
+                    </p>
+                    
+                    <div class="evento-carousel">
+                        <div id="idCarousel" class="carousel carousel-dark slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#idCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#idCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#idCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#idCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#idCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>                         
+                            </div>                       
+                            <div class="carousel-inner">                         
+                                <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="https://drive.google.com/uc?export=view&id=1IGHOs3YKLT-E0VgYlRMGyNlzz_iM9ZIQ" class="d-block w-100">
+                                </div>                            
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="https://drive.google.com/uc?export=view&id=1R0xGg6_Ihpj76fPE--hYEiWHEMnH9le3" class="d-block w-100">
+                                </div>                           
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="https://drive.google.com/uc?export=view&id=1GVvvL4O4GeX1PmfBXdyfFOPS8qKVoufj" class="d-block w-100">
+                                </div>     
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="https://drive.google.com/uc?export=view&id=1NyRxqkCBZ6MGae2Gk5hbQ1WKAz64km_B" class="d-block w-100" >
+                                </div>
+                                <div class="carousel-item"data-bs-interval="2000">
+                                    <img src="https://drive.google.com/uc?export=view&id=1RrOVuW2DXIfY5pjcIKXrWWp9yIPiPnxc" class="d-block w-100" alt="Switch">
+                                </div>                
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#idCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#idCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="evento-detalles">          
+                <div class="detalles-texto-1">                
+                    <div class="texto1-container"><h2>Detalles del Evento</h2></div>
+                </div>
+                <div class="detalles-texto-2">
+                    <div>
+                        <h2><strong>¿Cuándo & Dónde?</strong> </h2>
+                        <p>Lunes, 15 mayo a las 6pm en UNAHUR</p>
+                        <h2><strong>¿Qué esperar?</strong></h2>
+                        <p> Unítenos en una discusión activa acerca del Metaverse y su impacto en el futuro del trabajo con un 
+                            panel de expertos. Los temas incluyen: </p>
+                        <ul>
+                            <li>
+                                <p>¿Qué es el Metaverse y cual va a ser el rol que va a tener en el futuro del trabajo?</p>
+                            </li>
+                            <li>
+                                <p>¿Por qué el Metaverse y los mundos virtuales se volvieron un tema más relevante hoy más que nunca?</p>
+                            </li>
+                            <li>
+                                <p>¿Qué avances tecnológicos todavía se necesitan adoptar masivamente? </p>
+                            </li>
+                        <p>
+                            Después del debate del panel, quedate para una sesión de networking y la oportunidad de hablar 
+                            con los panelistas y otros invitados.
+                        </p>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="footer-ubicacion">
+                    <div class="ubicacion-titulo">
+                        <h3>¿DÓNDE ES EL EVENTO?</h3>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.427414147708!2d-58.64022692470286!3d-34.618637758285566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8d055e548bf%3A0x738f85ea67aeabe5!2sUNaHur.%20Universidad%20Nacional%20de%20Hurlingham!5e0!3m2!1ses!2sar!4v1683843777908!5m2!1ses!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer-redes">
+                    <div>
+                        <h3>COMPARTIR EN REDES</h3>
+                    </div>
+                    <div class="redes-links">
+                        <div>
+                            <a class="icono" href="https://facebook.com/" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1P1rqBIUeFGIcA7ykBUtsYXsAtyz2mNV0" alt="logo" /></a>
+                        </div>
+                        <div>
+                            <a class="icono" href="https://instagram.com/" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1q-q9sK4tMy69tJYHH-EJdsdR08yNYemG" alt="logo" /></a>
+                        </div>
+                        <div>
+                            <a class="icono" href="https://linkedin.com/" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1N7siIF_T_MGUuy2-SCejZNc6EC0Q9mGp" alt="logo" /></a>
+                        </div>
+                    </div>                           
+                </div>
+                <div class="footer-contacto">
+                    <p><strong>4323-3232</strong></p>
+                    <p><span>totalmenteReal@gmail.com</span></p>                   
+                </div>
+                <div class="footer-redireccion">
+                    <div class="redireccion-container">
+                        <a href="index.html"><img src="https://drive.google.com/uc?export=view&id=1IT2gG2ynkn9xkHgCYF6r4NZVlARjvyiP" alt="logo Inicio" title="Icono Inicio" /></a>
+                    </div>
+                    <div class="redireccion-container">
+                        <p><strong>© 2023 THE METAVERSE</strong></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
