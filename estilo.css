@@ -9,7 +9,7 @@
     src: url('./Font/Barlow-LightItalic.ttf');
     font-style: normal;
 }
-
+/* Body*/
 body{
     margin: 0;
     padding: 0;
@@ -23,6 +23,8 @@ body.dark{
     background-color: #0F172A; 
     color: #F8FBFE; 
 }
+
+/* Header */
 header{
     background-image: url('https://drive.google.com/uc?export=view&id=1ngQ_xF3gb9vhWWzEb9AL3Ts448h1JWSx');
     background-repeat: no-repeat;
@@ -136,13 +138,6 @@ ul{
     color: #E14A8C;
 }
 
-/* .evento-tema-titulo {
-    text-align: center;
-    padding: 0;
-    
-    margin-bottom: 1%;
-} */
-
 .evento-tema {
     display: block
 }
@@ -186,7 +181,6 @@ img .d-block.w-100{
 .evento-detalles{
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    /* width: 100%; */
     justify-content: center;
     place-content: center;
     margin: 10%;    
@@ -197,8 +191,6 @@ img .d-block.w-100{
     list-style-type: circle;
     padding: 0;  
 }
-
-
 
 .detalles-texto-1{
     display: grid;
@@ -235,8 +227,6 @@ img .d-block.w-100{
 .footer{
     display: block;
     text-align: center;
-    /* background-color: #64748B; */
-
 }
 
 .footer h3{
@@ -286,8 +276,8 @@ img .d-block.w-100{
     width: 50px;
     height: 50px;
 }
-/* Registro */
 
+/* Registro */
 .registro {
     margin-bottom: 5%;
 
